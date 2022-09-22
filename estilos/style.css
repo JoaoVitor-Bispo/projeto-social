@@ -9,14 +9,14 @@ html, body {
     width: 100vw;
 }
 body {
-    background: url('imagens/fundo-madeira.jpg') no-repeat center center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat center center;
     background-size: cover;
 }
 main {
     height: 100vh;
 }
 section#telefone {
-    background: url('imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat;
     height: 620px;
     width: 311px; 
     position: absolute;
@@ -31,6 +31,14 @@ iframe {
     top: 80px;
     left: 22px;
 }
+img.logos {
+    width: 60px;
+    height: 60px;
+    border-radius: 90%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    box-sizing: border-box;
+}
 section#imagenslogo {
     text-align: right;
     padding: 10px;
@@ -40,14 +48,7 @@ section#imagenslogo img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
     transform: translate(-5px, -5px);
 }
-img.logos {
-    width: 60px;
-    height: 60px;
-    border-radius: 90%;
-    margin: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
-    box-sizing: border-box;
-}
+
 ::-webkit-scrollbar {
     width: 0;
     height: 0;

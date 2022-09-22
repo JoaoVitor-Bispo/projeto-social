@@ -16,7 +16,10 @@ a {
     text-decoration: none;
 }
 a:hover {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.767);
+}
+a:active {
+    background-color: rgba(255, 0, 0, 0.473);
 }
 ::-webkit-scrollbar {
     width: 0;
